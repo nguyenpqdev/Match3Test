@@ -182,6 +182,20 @@
    - Chọn ngẫu nhiên từ các loại item có sẵn
    - Cập nhật số lượng item sau khi tạo mới
 
+5. Nhận xét:
+   -   Phân chia thư mục rõ ràng:
+   Có các thư mục riêng biệt cho Board, Controllers, UI, Utilities
+   Dễ dàng tìm kiếm và quản lý code theo chức năng
+   -   Sử dụng ScriptableObject:
+   GameSettings và ItemSkinData sử dụng ScriptableObject
+   Giúp quản lý dữ liệu game dễ dàng trong Editor
+   Có thể tạo nhiều cấu hình khác nhau
+   -  Tách biệt logic:
+   Board logic được tách riêng khỏi UI
+   Có các controller riêng để quản lý game flow
+   Item system được thiết kế theo hướng OOP
+
+   
 
 
      
